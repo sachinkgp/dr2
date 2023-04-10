@@ -3,8 +3,7 @@ import '../App.css'
 import axios from 'axios'
 
 const AllOrders=()=>{
-    const [orders,setOrders] = useState([]);
-    const [photo,setphoto] = useState([]);
+    const [orders,setOrders] = useState([])
 
     useEffect(()=>{
         axios
